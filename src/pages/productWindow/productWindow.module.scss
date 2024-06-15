@@ -1,0 +1,32 @@
+@import './../../main.scss';
+
+.wrapperWindow{
+    margin: 20px;
+    width: 300px;
+    height: 500px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px rgb(238, 238, 238);
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}   
+.title{
+    font-size: 18px;
+    font-family: $h2font-famaly;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+.iconsWindow{
+    display: flex;
+
+    justify-content:space-between;
+}

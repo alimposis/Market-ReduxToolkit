@@ -1,0 +1,56 @@
+@import '../../main.scss';
+
+.wrapperHeader{
+    width: 100%;
+    height: 100px;
+    background-color: $background-color;
+    display: flex;
+    justify-content: center;
+    h1{
+        cursor: pointer;
+        user-select: none
+    }
+}
+
+.logo{
+    font-family: $h2LogoFont-famaly;
+    margin: 10px;
+}
+.search{
+    width: 100%;
+    background-color:$background-color;
+}
+
+.bodyAdaptive{
+    width: $maxWidthBody;
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.adaptiveHeader{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+.adaptiveSearch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 730px){
+    .wrapperHeader{   
+        width: 100%;
+        height: 150px;
+        background-color: $background-color;
+        display: flex;
+        justify-content: center;
+        h1{
+            cursor: pointer;
+            user-select: none
+        }
+    }
+}
